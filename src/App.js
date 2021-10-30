@@ -1,6 +1,6 @@
-import Header from './components/header/Header'
-import Main from './components/main/Main'
-import Section from './components/section/Section'
+import Header from './layout/header/Header'
+import Main from './layout/main/Main'
+import Section from './layout/section/Section'
 import HeadlineImage from './sections/headline/headlineImage/HeadlineImage'
 import HeadlineText from './sections/headline/headlineText/HeadlineText'
 

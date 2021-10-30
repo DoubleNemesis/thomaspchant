@@ -1,8 +1,10 @@
-import {HeadlineBig, TextBlock} from './HeadlineTextComponents'
+import {HeadlineBig, TextBlock, HeadlineTextContainer} from './HeadlineTextComponents'
+import MainButton from '../../../components/buttons/MainButton'
+import {ButtonContainer} from '../../../components/buttons/ButtonContainer'
 
 export default function HeadlineText(){
     return(
-        <>
+        <HeadlineTextContainer>
         <HeadlineBig>
             Looking for a freelance web-developer?
         </HeadlineBig>
@@ -16,6 +18,9 @@ export default function HeadlineText(){
             </ul>
             Then let's have a chat and get the ball rolling.
         </TextBlock>
-        </>
+        <ButtonContainer>
+            <MainButton>Contact Me Now</MainButton>
+        </ButtonContainer>
+        </HeadlineTextContainer>
     )
 }
