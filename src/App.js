@@ -1,7 +1,8 @@
 import Header from './components/header/Header'
 import Main from './components/main/Main'
 import Section from './components/section/Section'
-import Headline from './sections/headline/Headline'
+import HeadlineImage from './sections/headline/headlineImage/HeadlineImage'
+import HeadlineText from './sections/headline/headlineText/HeadlineText'
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <Header />
       <Main>
         <Section>
-          <Headline/>
+          <HeadlineImage/>
+          <HeadlineText/>
         </Section>
       </Main>
     </>

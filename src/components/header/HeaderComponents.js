@@ -8,6 +8,7 @@ width: 100%;
 background-color: #222;
 background-color: transparent;
 padding: 0 1rem 0 1rem;
+border-bottom: 1px solid white;
 `
 
 export const HeaderLogo = styled.img`
