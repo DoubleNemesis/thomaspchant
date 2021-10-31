@@ -1,7 +1,7 @@
 import {HeadlineBig, HeadlineTextContainer} from './HeadlineTextComponents'
-import {TextBlock} from '../../../components/blocks/TextBlock'
-import MainButton from '../../../components/buttons/MainButton'
-import {ButtonContainer} from '../../../components/buttons/ButtonContainer'
+import {TextBlock} from '../../../../components/blocks/TextBlock'
+import MainButton from '../../../../components/buttons/MainButton'
+import {ButtonContainer} from '../../../../components/buttons/ButtonContainer'
 
 export default function HeadlineText(){
     return(

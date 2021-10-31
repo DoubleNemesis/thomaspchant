@@ -1,5 +1,5 @@
 import { HeadlineImageContainer, ImageContainer, ImageLabel } from "./HeadlineImageComponents"
-import Tom from "../../../images/tombg.png"
+import Tom from "../../../../images/tombg.png"
 
 export default function HeadlineImage({ children, ...restProps }) {
     return (

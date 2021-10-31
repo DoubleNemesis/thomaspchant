@@ -1,5 +1,6 @@
-import { FirstSectionContainer, StyledH1 } from "./FirstSectionComponents"
-import { TextBlock } from "../../components/blocks/TextBlock"
+import { FirstSectionContainer } from "./FirstSectionComponents"
+import { TextBlock } from "../../../components/blocks/TextBlock"
+import { StyledH1 } from "../../../components/text/StyledH1"
 
 export default function FirstSection(){
     return (
@@ -17,6 +18,9 @@ export default function FirstSection(){
                     <li>You’d like to incorporate advertising or affiliate marketing into your site.</li>
                     <li>You need a copywriter who understands Search Engine Optimisation (SEO) and who can create copy that converts your visitors to customers. </li>
                 </ol>
+            </TextBlock>
+            <TextBlock>
+                <p>Ready for to <a href="/">start a conversation?</a></p>
             </TextBlock>
 
         </FirstSectionContainer>
