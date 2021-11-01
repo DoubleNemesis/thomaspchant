@@ -1,6 +1,8 @@
+
 import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
+position: relative;
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -19,9 +21,12 @@ padding: 0;
 margin: 0;
 `
 
-export const BurgerMenu = () => {
+export const BurgerMenu = (props) => {
+
+
+
     return (
-        <div>
+        <div onClick={()=>props.setIsMenuOpen(!props.isMenuOpen)}>
             <svg viewBox="0 0 120 60" width="40" height="60" fill="white">
                 <rect width="100" height="10"></rect>
                 <rect y="30" width="100" height="10"></rect>

@@ -16,6 +16,7 @@ export const ImageContainer = styled.div`
     width: 250px;
     margin-bottom: 0;
     clip-path: path(var(--blob));
+    z-index: -1;
 
     img{
         height: 250px;
