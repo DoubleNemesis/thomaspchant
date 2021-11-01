@@ -9,7 +9,7 @@ export default function MobileNav(props) {
         <MobileNavContainer isMenuOpen={props.isMenuOpen}>
             <div className="mobile-header">
         <HeaderLogo src={Logo}/>
-        <BurgerMenu isMenuOpen={props.isMenuOpen} setIsMenuOpen={props.setIsMenuOpen}/>
+        <BurgerMenu isMenuOpen={props.isMenuOpen} setIsMenuOpen={props.setIsMenuOpen} />
             </div>
             <ul>
                <li><Link to="/">Home</Link></li>
