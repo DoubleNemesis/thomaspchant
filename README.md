@@ -1,3 +1,12 @@
+BEFORE DEPLOY:
+
+OG tag check
+favicon
+mobile menu text size
+contact page
+desktop
+add rhymedrop
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

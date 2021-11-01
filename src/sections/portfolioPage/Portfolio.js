@@ -3,6 +3,8 @@ import Section from '../../components/section/Section'
 import data from '../../data/projectData'
 import {PortfolioContainer} from './PortfolioComponents'
 import PortfolioItem from './PortfolioItem'
+import { TextBlock } from '../../components/blocks/TextBlock'
+import { StyledH1 } from '../../components/text/StyledH1'
 
 export default function Portfolio() {
 
@@ -10,6 +12,7 @@ export default function Portfolio() {
 
     const projectsDisplay = projects.map((item)=>{
         return <PortfolioItem
+        key={item.key}
         imageUrl={item.imageUrl}
         flipSideText={item.flipSideText}
         projectName={item.projectName}
@@ -23,6 +26,10 @@ export default function Portfolio() {
         <Main>
             <Section>
                 <PortfolioContainer>
+                    <TextBlock>
+                        <StyledH1>Projects</StyledH1>
+                        <p>A selection of my recent work</p>
+                    </TextBlock>
                     {projectsDisplay}
                 </PortfolioContainer>
             </Section>
