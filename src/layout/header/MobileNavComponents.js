@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const MobileNavContainer = styled.header`
+export const MobileNavContainer = styled.div`
 position: absolute;
 display: flex;
 flex-direction: column;
@@ -14,6 +14,7 @@ left: 0;
 transform: translateX(${({isMenuOpen})=> isMenuOpen ? '0' : '100%'});
 z-index: ${({isMenuOpen})=> isMenuOpen ? 2 : 0};
 transition: transform .6s;
+overflow: ${({isMenuOpen})=> isMenuOpen ? 'unset' : 'hidden'};
 
 .mobile-header{
     display: flex;

@@ -1,8 +1,7 @@
 
 import styled from "styled-components";
 
-export const HeaderContainer = styled.header`
-position: relative;
+export const HeaderContainer = styled.div`
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -11,6 +10,7 @@ background-color: #222;
 background-color: transparent;
 padding: 0 1rem 0 1rem;
 border-bottom: 1px solid white;
+overflow: hidden;
 `
 
 export const HeaderLogo = styled.img`
@@ -26,7 +26,7 @@ export const BurgerMenu = (props) => {
 
 
     return (
-        <div onClick={()=>props.setIsMenuOpen(!props.isMenuOpen)}>
+        <div onClick={()=>props.setIsMenuOpen(!props.isMenuOpen)} id="mobile-nav">
             <svg viewBox="0 0 120 60" width="40" height="60" fill="white">
                 <rect width="100" height="10"></rect>
                 <rect y="30" width="100" height="10"></rect>

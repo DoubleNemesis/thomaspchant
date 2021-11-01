@@ -1,15 +1,30 @@
-import { useState } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { HeaderContainer, HeaderLogo, BurgerMenu } from "./HeaderComponents";
 import MobileNav from "./MobileNav";
 import Logo from "../../images/doveFinalG2.svg"
 
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
+
+    useEffect(()=>{
+        document.addEventListener('click', closeMenu)
+
+        return ()=> document.removeEventListener('click', closeMenu)
+    })
+
+    const closeMenu = useCallback(()=>{
+        if (isMenuOpen){
+            setIsMenuOpen(false)
+        }
+    },[isMenuOpen])
+
     return (
-        <HeaderContainer>
+        <header>
+        <HeaderContainer isMenuOpen={isMenuOpen}>
             <HeaderLogo src={Logo}/>
             <BurgerMenu isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen}/>
-        <MobileNav isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen}/>
         </HeaderContainer> 
+        <MobileNav isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen}/>
+        </header>
     )
 }
