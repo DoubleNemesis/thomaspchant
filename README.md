@@ -5,7 +5,10 @@ favicon
 mobile menu text size
 contact page
 desktop
-add rhymedrop
+add rhymedrop and videos to data
+in page navs - move to contact (menu?)
+check cursor
+check button hover
 
 # Getting Started with Create React App
 

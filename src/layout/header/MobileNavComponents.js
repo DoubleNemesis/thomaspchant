@@ -29,6 +29,7 @@ ul{
 
 a {
     color: white;
+    font-size: 1.3rem;
 }
 
 

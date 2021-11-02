@@ -18,14 +18,11 @@ li{
 
 a, a:visited{
     text-decoration: underline;
-    color: #666;
     color: white;
 }
-
 `
 
 export const FooterSectionTop = styled.div`
-    background-color: #2f78af ;
     background-color: limegreen;
     padding: 1rem;
     `

@@ -1,13 +1,9 @@
 import Header from './layout/header/Header'
 import Footer from './layout/footer/Footer'
-import Home from './sections/homePage/Home'
-import Portfolio from './sections/portfolioPage/Portfolio'
-// import { BrowserRouter as Router } from "react-router-dom";
+import Home from './pages/home/Home'
+import Portfolio from './pages/portfolio/Portfolio'
+import Vlog from './pages/vlog/Vlog'
 import { Switch, Route } from "react-router-dom";
-
-
-
-
 
 function App() {
   return (
@@ -19,6 +15,9 @@ function App() {
         </Route>
         <Route path="/portfolio">
           <Portfolio/>
+        </Route>
+        <Route path="/vlog">
+          <Vlog/>
         </Route>
       </Switch>
       <Footer />
