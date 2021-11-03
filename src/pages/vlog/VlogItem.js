@@ -1,4 +1,3 @@
-import { getQueriesForElement } from "@testing-library/dom";
 import styled from "styled-components";
 
 const StyledMediaItem = styled.div`

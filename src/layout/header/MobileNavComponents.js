@@ -24,14 +24,16 @@ overflow: ${({isMenuOpen})=> isMenuOpen ? 'unset' : 'hidden'};
 }
 
 ul{
-    list-style: none;
+    /* list-style: none; */
+    color: white;
+}
+
+li{
+    margin-bottom: 1.3rem;
 }
 
 a {
     color: white;
     font-size: 1.3rem;
 }
-
-
-
 `

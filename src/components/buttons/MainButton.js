@@ -11,7 +11,6 @@ font-weight: 600;
 text-transform: uppercase;
 `
 
-
 export default function MainButton({children, ...restProps}){
-    return <StyledButton restProps>{children}</StyledButton>
+    return <StyledButton restProps onClick={restProps.onclick}>{children}</StyledButton>
 }

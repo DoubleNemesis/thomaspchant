@@ -1,14 +1,23 @@
-
+// the image size is 500px 238px
 let data = {
-    'projects':[
+    'projects':[ 
     {
-        'key': 6,
+        'key': 7,
         'projectName': 'Death In The City',
         'projectType': 'Web Application',
         'projectUrl': 'https://www.tomsclassroom.com/deathinthecity',
         'imageUrl': 'https://tomsclassroom.com/deathinthecity.png',
         'flipSideText': `A murder mystery puzzle-solving game aimed at students of English as a second language. It's built using React Styled Components.`,
         'githubLink' : 'https://github.com/DoubleNemesis/QI-app',
+    },
+    {
+        'key': 6,
+        'projectName': 'Rhyme Drop',
+        'projectType': 'Game',
+        'projectUrl': 'https://tomsclassroom.com/rhymedrop/',
+        'imageUrl': 'https://tomsclassroom.com/rhymedrop.png',
+        'flipSideText': `A word rhyming game of speed and skill ideal for English language students. It's built using React and styled components.`,
+        'githubLink' : 'https://github.com/DoubleNemesis/rhyme-grab',
     },
     {
         'key': 5,

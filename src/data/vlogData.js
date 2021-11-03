@@ -1,12 +1,19 @@
 let data = {
     'entries':[
-        {
-            'key': 8,
-            'name': `Recoil for React`,
-            'type': 'YouTube Video',
-            'embedCode': 'KIuXU4s2OyA',
-            'teaser': `Recoil State Management for React.`,
-        },
+    {
+        'key': 9,
+        'name': `Compound Components: Simple React Accordion Component.`,
+        'type': 'YouTube Video',
+        'embedCode': 'yDxiNl3cjBs',
+        'teaser': `Compound Components: Simple React Accordion Component.`,
+    },
+    {
+        'key': 8,
+        'name': `Recoil for React`,
+        'type': 'YouTube Video',
+        'embedCode': 'KIuXU4s2OyA',
+        'teaser': `Recoil State Management for React.`,
+    },
     {
         'key': 7,
         'name': `Custom Hooks in React - easiest ever examples!`,

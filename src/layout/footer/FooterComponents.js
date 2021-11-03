@@ -13,7 +13,7 @@ ul, li, img{
 }
 
 li{
-    line-height: 180%;
+    line-height: 200%;
 }
 
 a, a:visited{
@@ -43,7 +43,7 @@ export const FooterSectionBottom = styled.div`
 `
 
 export const FooterIcon = styled.img`
-    height: 16px;
+    height: 25px;
     margin-right: .8rem;
     filter: invert(62%) sepia(90%) saturate(441%) hue-rotate(68deg) brightness(87%) contrast(98%);
     filter: invert(93%) sepia(93%) saturate(28%) hue-rotate(115deg) brightness(106%) contrast(109%);

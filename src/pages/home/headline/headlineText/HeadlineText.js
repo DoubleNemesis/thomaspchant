@@ -4,6 +4,14 @@ import MainButton from '../../../../components/buttons/MainButton'
 import {ButtonContainer} from '../../../../components/buttons/ButtonContainer'
 
 export default function HeadlineText(){
+
+    function handleClick(){
+        console.log('click');
+        const target = document.getElementById("footer")
+        target.scrollIntoView()
+    }
+
+
     return(
         <HeadlineTextContainer>
         <HeadlineBig>
@@ -20,7 +28,7 @@ export default function HeadlineText(){
             If any of that sounds like you, let's have a chat and get the ball rolling.
         </TextBlock>
         <ButtonContainer>
-            <MainButton>Contact Me Now</MainButton>
+            <MainButton onclick={handleClick}>Contact Me Now</MainButton>
         </ButtonContainer>
         </HeadlineTextContainer>
     )

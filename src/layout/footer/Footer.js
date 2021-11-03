@@ -11,7 +11,7 @@ const year = d.getFullYear()
 
 export default function Footer(){
     return(
-        <FooterContainer>
+        <FooterContainer id="footer">
             <FooterSectionTop>
             <ul>
                     <li><FooterIcon src={Email}/><a href="mailto:info@thomaspchant.com">Email me</a></li>

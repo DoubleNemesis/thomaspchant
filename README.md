@@ -1,14 +1,14 @@
 BEFORE DEPLOY:
 
+in page navs - move to contact (menu?)
 OG tag check
 favicon
-mobile menu text size
-contact page
+contact page (update with contact form nodejs)
 desktop
-add rhymedrop and videos to data
-in page navs - move to contact (menu?)
 check cursor
 check button hover
+setup info@email
+pia invoice
 
 # Getting Started with Create React App
 
