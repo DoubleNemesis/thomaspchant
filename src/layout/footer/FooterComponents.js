@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const FooterContainer = styled.div`
+
 color: #141414;
 
 ul{
@@ -20,13 +21,18 @@ a, a:visited{
     text-decoration: underline;
     color: white;
 }
-`
 
+@media(min-width: 700px){
+    width: 90%;
+    margin: 0 auto;
+}
+
+`
 export const FooterSectionTop = styled.div`
     background-color: limegreen;
     padding: 1rem;
+    border-radius: 5px;
     `
-
 export const FooterSectionBottom = styled.div`
     display: flex;
     flex-direction: column;
@@ -41,7 +47,6 @@ export const FooterSectionBottom = styled.div`
     width: 80px;     
     }
 `
-
 export const FooterIcon = styled.img`
     height: 25px;
     margin-right: .8rem;

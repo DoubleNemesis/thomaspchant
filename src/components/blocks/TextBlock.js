@@ -17,4 +17,9 @@ li{
     margin-bottom: 1rem;
 }
 
+
+@media(min-width:700px){
+    margin: 2rem 0 0 0;
+}
+
 `

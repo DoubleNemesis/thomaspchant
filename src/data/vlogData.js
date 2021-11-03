@@ -2,24 +2,24 @@ let data = {
     'entries':[
     {
         'key': 9,
-        'name': `Compound Components: Simple React Accordion Component.`,
+        'name': `Compound Components: Simple React Accordion Component`,
         'type': 'YouTube Video',
         'embedCode': 'yDxiNl3cjBs',
-        'teaser': `Compound Components: Simple React Accordion Component.`,
+        'teaser': `A highly customisable and flexible React Accordion Component displaying FAQs.`,
     },
     {
         'key': 8,
         'name': `Recoil for React`,
         'type': 'YouTube Video',
         'embedCode': 'KIuXU4s2OyA',
-        'teaser': `Recoil State Management for React.`,
+        'teaser': `A first look at Recoil State Management for React - an alternative to Redux?`,
     },
     {
         'key': 7,
         'name': `Custom Hooks in React - easiest ever examples!`,
         'type': 'YouTube Video',
         'embedCode': 'ONbkapq_oD8',
-        'teaser': `Two easy to implement custom hooks.`,
+        'teaser': `Two of the easiest to implement custom hooks you will ever see.`,
     },
     {
         'key': 6,
@@ -61,7 +61,7 @@ let data = {
         'name': 'UseContext hook with Styled Components',
         'type': 'YouTube Video',
         'embedCode': 'kg_uSxt7Esw',
-        'teaser': 'React useContext hook with Styled Components.',
+        'teaser': 'State management with React useContext hook and Styled Components.',
     },
     ]}
 

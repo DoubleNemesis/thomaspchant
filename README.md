@@ -1,13 +1,14 @@
 BEFORE DEPLOY:
-
-in page navs - move to contact (menu?)
+check media query on nav menu tablet
+link colour front page
+tablet fliptext bug
 OG tag check
-favicon
 contact page (update with contact form nodejs)
 desktop
 check cursor
 check button hover
 setup info@email
+
 pia invoice
 
 # Getting Started with Create React App

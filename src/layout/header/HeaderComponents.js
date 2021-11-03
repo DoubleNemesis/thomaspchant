@@ -11,28 +11,35 @@ background-color: transparent;
 padding: 0 1rem 0 1rem;
 border-bottom: 1px solid white;
 overflow: hidden;
+
+@media(min-width:700px){
+    border-bottom: none;
+    height: 7rem;
+}
 `
 
 export const HeaderLogo = styled.img`
-font-family: 'Rubik';
-font-weight: 600;
-font-size: 2.2rem;
-padding: 0;
-margin: 0;
+@media(min-width:700px){
+    width: 200px;
+}
+`
+const BurgerMenuContainer = styled.div`
+
+@media(min-width:1025px){
+    display: none;
+}
+
 `
 
 export const BurgerMenu = (props) => {
-
-
-
     return (
-        <div onClick={()=>props.setIsMenuOpen(!props.isMenuOpen)} id="mobile-nav">
+        <BurgerMenuContainer onClick={()=>props.setIsMenuOpen(!props.isMenuOpen)} id="mobile-nav">
             <svg viewBox="0 0 120 60" width="40" height="60" fill="white">
                 <rect width="100" height="10"></rect>
                 <rect y="30" width="100" height="10"></rect>
                 <rect y="60" width="100" height="10"></rect>
             </svg>
-        </div>
+        </BurgerMenuContainer>
     )
 
 }

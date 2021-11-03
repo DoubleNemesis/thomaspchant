@@ -9,6 +9,7 @@ color: white;
 font-size: 1.3rem;
 font-weight: 600;
 text-transform: uppercase;
+border-radius: 5px;
 `
 
 export default function MainButton({children, ...restProps}){

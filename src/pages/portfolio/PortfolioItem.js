@@ -13,6 +13,11 @@ border-radius: .2em;
 margin: 1em;
 padding: .5em 0 .5em 0;
 
+@media(min-width: 700px){
+    width: 500px;
+}
+
+
 
 .flip-box {
     background-color: transparent;
@@ -24,6 +29,14 @@ padding: .5em 0 .5em 0;
     padding-top: 3px;
     user-select: none;
   }
+
+  @media(min-width: 700px){
+
+    .flip-box {
+    width: 500px;
+    height: 240px;
+  }
+}
   
   .flip-box-inner {
     position: relative;
@@ -111,6 +124,13 @@ img{
     max-width: 297px;
 }
 
+  @media(min-width: 700px){
+
+img{
+    max-width: 457px;
+  }
+  }
+
 img.hidden{
     opacity: 0;
     transition: opacity .5s ease 0s;
@@ -137,7 +157,7 @@ function PortfolioItem(props) {
         <div className="flip-box" aria-haspopup="true">
           <div className="flip-box-inner" >
             <div className="flip-box-front" >
-              <ProjectImage><img src={props.imageUrl} alt={props.projectName}/></ProjectImage>
+              <ProjectImage><img src={props.imageUrl} alt={props.projectName} /></ProjectImage>
             </div>
             <div className="flip-box-back">
               <FlipSideText>{props.flipSideText}</FlipSideText>

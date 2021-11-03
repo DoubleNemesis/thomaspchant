@@ -3,6 +3,7 @@ import { HeaderContainer, HeaderLogo, BurgerMenu } from "./HeaderComponents";
 import { Link } from "react-router-dom";
 import MobileNav from "./MobileNav";
 import Logo from "../../images/doveFinalG2.svg"
+import DesktopNav from "./DesktopNav";
 
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -23,6 +24,7 @@ export default function Header() {
         <header>
             <HeaderContainer isMenuOpen={isMenuOpen}>
             <Link to="/"><HeaderLogo src={Logo} /></Link>
+                <DesktopNav/>
                 <BurgerMenu isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
             </HeaderContainer>
             <MobileNav isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
