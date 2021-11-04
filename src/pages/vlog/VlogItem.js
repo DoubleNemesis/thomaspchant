@@ -16,12 +16,21 @@ iframe{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+    
+    iframe{
+        max-width: 50%;
+    }
+}
+@media(min-width:1025px){
+    width: 500px;
+    border: 1px solid blue;
 
     iframe{
     max-width: 50%;
+    }
 }
 
-}
+
 `
 const VideoTitle = styled.h2`
 padding-top: 0;

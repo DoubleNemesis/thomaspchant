@@ -38,6 +38,7 @@ export const FooterSectionTop = styled.div`
   
     @media(min-width: 1025px){
         border-radius: unset;
+        padding: 3rem 15rem;
     }
     `
 export const FooterSectionBottom = styled.div`
