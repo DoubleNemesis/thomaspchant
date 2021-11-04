@@ -7,6 +7,8 @@ font-size: var(--text);
 
 ul{
     list-style-image: url(${Bullet});
+    margin-left: 0px;
+    padding-left: 1.3rem;
 }
 
 ol{
@@ -15,6 +17,7 @@ ol{
 
 li{
     margin-bottom: 1rem;
+    margin-left: 0;
 }
 
 

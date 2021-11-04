@@ -23,6 +23,12 @@ overflow: ${({isMenuOpen})=> isMenuOpen ? 'unset' : 'hidden'};
     padding: 0 1rem 0 1rem;
 }
 
+@media(min-width:700px){
+    .mobile-header{
+    padding: 1.3rem 1rem 0 1rem;
+}
+}
+
 ul{
     /* list-style: none; */
     color: white;

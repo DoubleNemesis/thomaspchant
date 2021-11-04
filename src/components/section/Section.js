@@ -3,7 +3,9 @@ import { SectionContainer } from './SectionComponents'
 
 export default function Section({children, ...restProps}) {
     return (
-        <SectionContainer restProps>
+        <SectionContainer 
+        display={restProps.display}
+        flexDirection={restProps.flexDirection}>
             {children}
         </SectionContainer>
     )

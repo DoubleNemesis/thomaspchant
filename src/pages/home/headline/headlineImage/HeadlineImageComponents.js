@@ -7,7 +7,6 @@ export const HeadlineImageContainer = styled.div`
     align-items: center;
     justify-content: center;
     margin-top: 1.5rem;
-    /* min-height: 400px; */
 `
 
 export const ImageContainer = styled.div`
@@ -16,11 +15,22 @@ export const ImageContainer = styled.div`
     width: 250px;
     margin-bottom: 0;
     clip-path: path(var(--blob));
-    z-index: -1;
+    z-index: -1; // is this needed?
 
     img{
         height: 250px;
         width: 250px;
+    }
+
+    @media(min-width: 1025px){
+    height: 400px;
+    width: 400px;
+    clip-path: path(var(--blobDesktop));
+
+    img{
+        height: 400px;
+        width: 400px;
+    }
     }
 `
 

@@ -9,7 +9,10 @@ import SecondSection from './secondSection/SecondSection'
 export default function Home() {
     return (
         <Main>
-            <Section>
+            <Section 
+            display="flex"
+            flexDirection="row-reverse"
+            >
                 <HeadlineImage />
                 <HeadlineText />
             </Section>
