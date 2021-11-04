@@ -8,7 +8,7 @@ export default function HeadlineImage({ children, ...restProps }) {
                 <img src={Tom} alt="Thomas P Chant Web Developer" />
             </ImageContainer>
             <ImageLabel>
-                <h2>Thomas Chant - Freelance Web-Developer</h2>
+                <h2>Thomas Chant - Freelance Web Developer</h2>
             </ImageLabel>
         </HeadlineImageContainer>
     )

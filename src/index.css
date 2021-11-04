@@ -35,7 +35,9 @@ body {
 @media(min-width: 1025px) {
   :root{
     --headline: 2.7rem;
+    --headlineMedium: 2.35rem;
     --text: 1.44rem;
+    --textSmall: 1.28rem;
   }
   
 }

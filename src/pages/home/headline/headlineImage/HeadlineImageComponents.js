@@ -22,7 +22,7 @@ export const ImageContainer = styled.div`
         width: 250px;
     }
 
-    @media(min-width: 1025px){
+    @media(min-width: 700px){
     height: 400px;
     width: 400px;
     clip-path: path(var(--blobDesktop));

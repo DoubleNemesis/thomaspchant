@@ -20,7 +20,7 @@ export default function FirstSection(){
                 </ol>
             </TextBlock>
             <TextBlock>
-                <p>Ready for to <a href="mailto:info@thomaspchant.com">start a conversation?</a></p>
+                <p>Ready to <a href="mailto:info@thomaspchant.com">start a conversation?</a></p>
             </TextBlock>
 
         </FirstSectionContainer>

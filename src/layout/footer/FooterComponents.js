@@ -26,12 +26,19 @@ a, a:visited{
     width: 90%;
     margin: 0 auto;
 }
+@media(min-width: 1025px){
+    width: 100%;
+}
 
 `
 export const FooterSectionTop = styled.div`
     background-color: limegreen;
     padding: 1rem;
     border-radius: 5px;
+  
+    @media(min-width: 1025px){
+        border-radius: unset;
+    }
     `
 export const FooterSectionBottom = styled.div`
     display: flex;

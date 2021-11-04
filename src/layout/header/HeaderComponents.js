@@ -14,7 +14,8 @@ overflow: hidden;
 
 @media(min-width:700px){
     border-bottom: none;
-    height: 6.5rem;
+    align-items: flex-end;
+    height: 5.5rem;
     /* border: 1px solid white; */
 }
 `
