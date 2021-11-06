@@ -1,12 +1,8 @@
 BEFORE DEPLOY:
 check media query on nav menu tablet
-link colour front page
-tablet fliptext bug
+tablet fliptext bug???
 OG tag check
 contact page (update with contact form nodejs)
-desktop
-check cursor
-check button hover
 setup info@email
 
 pia invoice

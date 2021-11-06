@@ -4,7 +4,7 @@ let data = {
     {
         'key': 7,
         'projectName': 'Death In The City',
-        'projectType': 'Web Application',
+        'projectType': 'Web Application: Game',
         'projectUrl': 'https://www.tomsclassroom.com/deathinthecity',
         'imageUrl': 'https://tomsclassroom.com/deathinthecity.png',
         'flipSideText': `A murder mystery puzzle-solving game aimed at students of English as a second language. It's built using React Styled Components.`,
@@ -13,7 +13,7 @@ let data = {
     {
         'key': 6,
         'projectName': 'Rhyme Drop',
-        'projectType': 'Game',
+        'projectType': 'Web Application: Game',
         'projectUrl': 'https://tomsclassroom.com/rhymedrop/',
         'imageUrl': 'https://tomsclassroom.com/rhymedrop.png',
         'flipSideText': `A word rhyming game of speed and skill ideal for English language students. It's built using React and styled components.`,

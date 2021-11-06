@@ -4,6 +4,7 @@ import HeadlineImage from './headline/headlineImage/HeadlineImage'
 import HeadlineText from './headline/headlineText/HeadlineText'
 import FirstSection from './firstSection/FirstSection'
 import SecondSection from './secondSection/SecondSection'
+import ContactForm from '../../components/contact/Contact'
 
 
 export default function Home() {
@@ -19,6 +20,9 @@ export default function Home() {
             <Section>
                 <FirstSection />
                 <SecondSection />
+            </Section>
+            <Section>
+            <ContactForm/>
             </Section>
         </Main>
     )

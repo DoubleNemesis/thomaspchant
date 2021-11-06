@@ -19,7 +19,7 @@ export const PortfolioInner = styled.div`
     flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
-    margin: 0 auto;
+    margin: 2rem auto 4rem auto;
     width: 100%;
 }
 `
