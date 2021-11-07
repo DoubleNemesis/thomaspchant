@@ -7,6 +7,7 @@ align-items: center;
 justify-content: center;
 padding: 2rem 0;
 border-top: 2px solid white;
+background-color: #28a428;
 
 
 h2{
@@ -21,7 +22,7 @@ flex-direction: column;
 width: 75%;
 gap: .5rem;
 
-@media(min-width: 700px){
+@media(min-width: 1025px){
     width: 700px;
 }
 
@@ -41,7 +42,7 @@ input{
 
 export const FormButton = styled.button`
 border: none;
-background-color: limegreen;
+background-color: rgb(33, 37, 41);
 padding: .8rem 1.8rem;
 color: white;
 margin-top: .5rem; 
@@ -50,9 +51,11 @@ font-weight: 600;
 text-transform: uppercase;
 border-radius: 0px;
 cursor: pointer;
+width: 200px;
+border-radius: 5px;
 
 :hover{
-    background-color: #80cd32;
+    background-color: #666;
 }
 
 `

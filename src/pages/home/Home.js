@@ -21,7 +21,7 @@ export default function Home() {
                 <FirstSection />
                 <SecondSection />
             </Section>
-            <Section>
+            <Section width="100%">
             <ContactForm/>
             </Section>
         </Main>

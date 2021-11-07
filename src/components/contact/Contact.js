@@ -56,6 +56,7 @@ export default function ContactForm() {
                 <textarea id="message" name="message" required />
                 <FormButton type="submit">{status}</FormButton>
             </Form>
+            <p>I'll get back to you as soon as humanely possible, and usually within the hour.</p>
         </FormContainer>
 
     )

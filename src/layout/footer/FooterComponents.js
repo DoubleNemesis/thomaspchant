@@ -23,8 +23,9 @@ a, a:visited{
 }
 
 @media(min-width: 700px){
-    width: 90%;
+    /* width: 90%; */
     margin: 0 auto;
+
 }
 @media(min-width: 1025px){
     width: 100%;
@@ -32,9 +33,11 @@ a, a:visited{
 
 `
 export const FooterSectionTop = styled.div`
-    background-color: limegreen;
+    background-color: #25608c;
     padding: 1rem;
-    border-radius: 5px;
+    /* border-radius: 5px; */
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
   
     @media(min-width: 1025px){
         border-radius: unset;
@@ -46,6 +49,7 @@ export const FooterSectionBottom = styled.div`
     flex-direction: column;
     padding: 1rem;
     text-align: center;
+    background-color: #555;
 
     p{
         font-size: .7rem;

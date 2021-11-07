@@ -1,11 +1,8 @@
 BEFORE DEPLOY:
-check media query on nav menu tablet
-tablet fliptext bug???
-OG tag check
-contact page (update with contact form nodejs)
-setup info@email
+social icons on nav menu?
+Github?
+contact page blurb/break blob
 
-pia invoice
 
 # Getting Started with Create React App
 
