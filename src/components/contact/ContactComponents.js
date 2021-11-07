@@ -21,6 +21,10 @@ flex-direction: column;
 width: 75%;
 gap: .5rem;
 
+@media(min-width: 700px){
+    width: 700px;
+}
+
 textarea{
     height: 100px;
 }

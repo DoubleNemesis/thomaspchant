@@ -17,7 +17,7 @@ export default function Footer(){
                     <li><FooterIcon src={Email}/><a href="mailto:info@thomaspchant.com">Email me</a></li>
                     <li><FooterIcon src={Twitter} className=""/><a href="https://www.twitter.com/tpchant">Follow me on twitter</a></li>
                     <li><FooterIcon src={Youtube}/><a href="https://www.twitter.com/tpchant">Watch my YouTube videos</a></li>
-                    <li><FooterIcon src={Phone}/><a href="tel:00000000">+44 0000 000000</a></li>
+                    {/* <li><FooterIcon src={Phone}/><a href="tel:00000000">+44 0000 000000</a></li> */}
                     <li><FooterIcon src={LinkedIn}/><a href="https://www.twitter.com/tpchant">Connect on LinkedIn</a></li>
                 </ul>
             </FooterSectionTop>
