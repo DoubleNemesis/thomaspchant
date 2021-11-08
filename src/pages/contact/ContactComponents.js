@@ -4,7 +4,11 @@ export const TextContainer = styled.div`
 align-items: center;
 color: white;
 width: 80%;
-margin: 0 auto;
 padding: 4rem 0;
-text-align: center;
+text-align: left;
+margin-left: 2rem;
+
+@media(min-width:1025px){
+    width: 40%;
+    }
 `

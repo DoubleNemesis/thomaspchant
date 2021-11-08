@@ -1,18 +1,17 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
-export const HeadlineImageContainer = styled.div`
+export const ContactImageContainer = styled.div`
     position: relative;
     display: flex;
-    display: ${({display})=>display || 'flex'};
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 1.5rem;
 
-    @media(min-width:700px){
-        display: flex;
+    @media(min-width:1025px){
+        display: ${({display})=>display || 'flex'};
     }
-
 `
 
 export const ImageContainer = styled.div`
@@ -28,7 +27,7 @@ export const ImageContainer = styled.div`
         width: 250px;
     }
 
-    @media(min-width: 700px){
+    /* @media(min-width: 700px){
     height: 400px;
     width: 400px;
     clip-path: path(var(--blobDesktop));
@@ -37,17 +36,5 @@ export const ImageContainer = styled.div`
         height: 400px;
         width: 400px;
     }
-    }
-`
-
-export const ImageLabel = styled.div`
-/* border: 1px solid red; */
-h2{
-    margin: 0;
-    padding: 0;
-    font-size: .8rem;
-    font-weight: 400;
-    color: #999;
-}
-
+    } */
 `

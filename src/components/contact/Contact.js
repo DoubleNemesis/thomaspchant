@@ -1,7 +1,7 @@
 import emailjs from 'emailjs-com'
 import { useState, useRef } from "react"
 import { Form, FormContainer, FormButton } from "./ContactComponents"
-import { details } from '../../secrets'
+import { details } from '../../secrets2'
 
 export default function ContactForm() {
 
@@ -45,7 +45,7 @@ export default function ContactForm() {
     }
 
     return (
-        <FormContainer>
+        <FormContainer id="contact-form">
             <h2>Let's start a conversation</h2>
             <Form onSubmit={handleSubmit} ref={form}>
                 <div><label htmlFor="name">Name:</label></div>

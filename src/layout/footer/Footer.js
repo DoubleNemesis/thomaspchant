@@ -5,6 +5,7 @@ import Youtube from './../../images/youtube.svg'
 import Phone from './../../images/phone.svg'
 import LinkedIn from './../../images/linkedin.svg'
 import Email from './../../images/email.svg'
+import GitHub from './../../images/github.svg'
 
 const d = new Date()
 const year = d.getFullYear()
@@ -18,6 +19,7 @@ export default function Footer(){
                     <li><FooterIcon src={Twitter} className=""/><a href="https://www.twitter.com/tpchant">Follow me on twitter</a></li>
                     <li><FooterIcon src={Youtube}/><a href="https://www.twitter.com/tpchant">Watch my YouTube videos</a></li>
                     {/* <li><FooterIcon src={Phone}/><a href="tel:00000000">+44 0000 000000</a></li> */}
+                    <li><FooterIcon src={GitHub}/><a href="https://github.com/DoubleNemesis">Check my GitHub</a></li>
                     <li><FooterIcon src={LinkedIn}/><a href="https://www.twitter.com/tpchant">Connect on LinkedIn</a></li>
                 </ul>
             </FooterSectionTop>

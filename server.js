@@ -2,13 +2,15 @@ const express = require("express");
 const router = express.Router();
 const cors = require("cors");
 const nodemailer = require("nodemailer");
-const config = require("./src/secrets");
+const config = require("./secrets");
 
 const app = express()
 app.use(cors())
 app.use(express.json())
 app.use('/', router)
-app.listen(3000, ()=> console.log('server running'))
+app.listen(3000, ()=> {
+  console.log('server running')
+})
 
 const contactEmail = nodemailer.createTransport({
     host: "mail.thomaspchant.com",
@@ -29,7 +31,7 @@ const contactEmail = nodemailer.createTransport({
     }
   });
 
-  router.post("/app/contact", (req, res) => {
+  router.post("/email", (req, res) => {
       console.log('happens')
       const name = req.body.name;
       const email = req.body.email;

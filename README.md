@@ -1,7 +1,7 @@
-BEFORE DEPLOY:
-social icons on nav menu?
-Github?
-contact page blurb/break blob
+BEFORE DEPLOY: 
+check everything!
+projects: add backend? Add email template?
+add domain lock to emailjs and test after deploy
 
 
 # Getting Started with Create React App

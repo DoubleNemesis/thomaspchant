@@ -3,7 +3,7 @@ import Tom from "../../../../images/tombg.png"
 
 export default function HeadlineImage({ children, ...restProps }) {
     return (
-        <HeadlineImageContainer restProps>
+        <HeadlineImageContainer display={restProps.display}>
             <ImageContainer>
                 <img src={Tom} alt="Thomas P Chant Web Developer" />
             </ImageContainer>

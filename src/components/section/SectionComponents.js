@@ -10,5 +10,6 @@ export const SectionContainer = styled.section`
     display: ${({display})=>display || 'initial'};
     flex-direction: ${({flexDirection})=>flexDirection || 'unset'};
     justify-content: space-around;
+    justify-content: ${({justifyContent})=>justifyContent || 'space-around'};
 }
 `

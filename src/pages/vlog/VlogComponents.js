@@ -11,9 +11,6 @@ background-color: transparent;
 padding: 0 1rem 0 1rem;
 /* border-bottom: 1px solid white; */
 overflow: hidden;
-
-
-
 `
 export const VlogInner = styled.div`
 @media(min-width: 1025px){

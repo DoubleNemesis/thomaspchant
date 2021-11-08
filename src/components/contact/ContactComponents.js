@@ -14,6 +14,10 @@ h2{
     text-align: center;
     margin: .5rem 1rem 2rem 1rem;
 }
+
+p{
+    padding: 0 1rem;
+}
 `
 
 export const Form = styled.form`

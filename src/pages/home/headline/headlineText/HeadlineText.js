@@ -7,7 +7,7 @@ export default function HeadlineText(){
 
     function handleClick(){
         console.log('click');
-        const target = document.getElementById("footer")
+        const target = document.getElementById("contact-form")
         target.scrollIntoView()
     }
 
