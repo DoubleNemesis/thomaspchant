@@ -1,4 +1,6 @@
 BEFORE DEPLOY: 
+web developer and copywriter?
+photo!
 check everything!
 projects: add backend? Add email template?
 add domain lock to emailjs and test after deploy

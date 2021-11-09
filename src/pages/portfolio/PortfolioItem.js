@@ -11,7 +11,7 @@ background-color: white;
 border: 1px solid #999;
 border-radius: .2em;
 margin: 1em;
-padding: .5em 0 .5em 0;
+padding: 1.5em .5em .5em .5em;
 
 @media(min-width: 700px){
     width: 500px;
