@@ -1,5 +1,7 @@
 BEFORE DEPLOY: 
-web developer and copywriter?
+go for vanilla for seo???
+do url indexing test analytics
+first page link email or contact?
 photo!
 check everything!
 projects: add backend? Add email template?
