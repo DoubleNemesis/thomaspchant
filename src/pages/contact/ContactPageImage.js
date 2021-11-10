@@ -1,5 +1,5 @@
 import { ContactImageContainer, ImageContainer } from "./ContactPageImageComponents"
-import Tom from "./../../images/tombg.png"
+import Tom from "./../../images/thomas_p_chant.png"
 
 export default function ContactPageImage({ children, ...restProps }) {
     return (

@@ -1,11 +1,13 @@
 BEFORE DEPLOY: 
+refresh doesn't get css or assumes mobile?
+menu appears open
 go for vanilla for seo???
 do url indexing test analytics
 first page link email or contact?
 photo!
 check everything!
 projects: add backend? Add email template?
-add domain lock to emailjs and test after deploy
+
 
 
 # Getting Started with Create React App

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { HashRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 
 // ReactDOM.render(
 //   <React.StrictMode>
@@ -17,7 +17,12 @@ import { HashRouter as Router } from "react-router-dom";
 const rootElement = document.getElementById("root");
 
 if (rootElement.hasChildNodes()) {
-  ReactDOM.hydrate(<App />, rootElement);
+  ReactDOM.hydrate(
+    <React.StrictMode>
+    <Router>
+      <App />
+    </Router>
+  </React.StrictMode>, rootElement);
 } else {
   ReactDOM.render(
 

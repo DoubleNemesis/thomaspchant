@@ -2,7 +2,7 @@ import {FooterContainer, FooterSectionTop, FooterSectionBottom, FooterIcon} from
 import Logo from './../../images/doveFinalG2.svg'
 import Twitter from './../../images/twitter.svg'
 import Youtube from './../../images/youtube.svg'
-import Phone from './../../images/phone.svg'
+// import Phone from './../../images/phone.svg'
 import LinkedIn from './../../images/linkedin.svg'
 import Email from './../../images/email.svg'
 import GitHub from './../../images/github.svg'
