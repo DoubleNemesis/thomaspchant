@@ -30,12 +30,17 @@ const BurgerMenuContainer = styled.div`
 @media(min-width:1025px){
     display: none;
 }
-
 `
 
 export const BurgerMenu = (props) => {
+
+    function handleClick(){
+        props.setIsMenuOpen(!props.isMenuOpen)
+    }
+
+
     return (
-        <BurgerMenuContainer onClick={()=>props.setIsMenuOpen(!props.isMenuOpen)} id="mobile-nav">
+        <BurgerMenuContainer onClick={handleClick} id="mobile-nav">
             <svg viewBox="0 0 120 60" width="40" height="60" fill="white">
                 <rect width="100" height="10"></rect>
                 <rect y="30" width="100" height="10"></rect>

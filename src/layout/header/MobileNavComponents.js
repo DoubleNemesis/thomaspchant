@@ -42,4 +42,9 @@ a {
     color: white;
     font-size: 1.3rem;
 }
+
+@media(min-width:1025px){
+    display: none;
+}
+
 `

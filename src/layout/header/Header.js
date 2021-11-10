@@ -25,9 +25,16 @@ export default function Header() {
             <HeaderContainer isMenuOpen={isMenuOpen}>
             <Link to="/"><HeaderLogo src={Logo} /></Link>
                 <DesktopNav/>
-                <BurgerMenu isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
+                <BurgerMenu 
+                isMenuOpen={isMenuOpen} 
+                setIsMenuOpen={setIsMenuOpen}
+
+                />
             </HeaderContainer>
-            <MobileNav isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
+            <MobileNav
+            isMenuOpen={isMenuOpen} 
+            setIsMenuOpen={setIsMenuOpen} 
+            />
         </header>
     )
 }
